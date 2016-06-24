@@ -1,0 +1,11 @@
+[Unit]
+Description=Synergy Client
+
+[Service]
+ExecStart=/usr/bin/synergyc -d INFO -f 192.168.0.4
+Restart=always
+RestartSec=1s
+StartLimitInterval=0
+
+[Install]
+WantedBy=default.target

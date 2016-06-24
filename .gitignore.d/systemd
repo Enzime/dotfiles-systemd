@@ -6,6 +6,7 @@
 !/.config/systemd/user/duckdns.timer
 !/.config/systemd/user/no-mnt-ex.service
 !/.config/systemd/user/notimux.service
+!/.config/systemd/user/synergyc.service
 !/.config/systemd/user/synergys.service
 !/.gitignore.d
 !/.gitignore.d/systemd
