@@ -1,0 +1,11 @@
+*
+!/.config
+!/.config/systemd
+!/.config/systemd/user
+!/.config/systemd/user/duckdns.service
+!/.config/systemd/user/duckdns.timer
+!/.config/systemd/user/no-mnt-ex.service
+!/.config/systemd/user/notimux.service
+!/.config/systemd/user/synergys.service
+!/.gitignore.d
+!/.gitignore.d/systemd

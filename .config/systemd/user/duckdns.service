@@ -1,0 +1,5 @@
+[Unit]
+Description=DuckDNS updater
+
+[Service]
+ExecStart=/usr/local/bin/duckdns
