@@ -1,9 +1,9 @@
 [Unit]
 Description=Cloud backup
-OnFailure=notify-failed@%n.service
+#OnFailure=notify-failed@%n.service
 
 [Service]
-ExecStart=/usr/local/bin/cloud-backup
+ExecStart=/home/enzime/bin/cloud-backup
 Restart=on-failure
 
 [Install]

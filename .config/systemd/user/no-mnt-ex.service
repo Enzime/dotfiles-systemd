@@ -1,9 +1,0 @@
-[Unit]
-Description=Fix mnt-ex.automount hanging on startup
-After=local-fs.target 
-
-[Service]
-ExecStart=/bin/bash -c "[ ! -b /dev/ext ] && systemctl stop mnt-ex.automount"
-
-[Install]
-WantedBy=local-fs.target

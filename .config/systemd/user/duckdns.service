@@ -2,4 +2,4 @@
 Description=DuckDNS updater
 
 [Service]
-ExecStart=/usr/local/bin/duckdns
+ExecStart=/home/enzime/bin/duckdns
